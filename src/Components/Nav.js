@@ -1,6 +1,5 @@
-import React from "react";
 import { Link } from "react-router-dom";
-
+// import data from "../data";
 
 export default function Nav (){
     return(
@@ -12,8 +11,11 @@ export default function Nav (){
                 <div>About</div>
             </Link>
             <Link to='Stocks'>
-                <div>iStocks</div>
+                <div>Dashboard </div>
             </Link>
+           {/* <Link to='Stocks'>
+                <div>Stocks </div>
+            </Link> */}
             
         </div>
     )

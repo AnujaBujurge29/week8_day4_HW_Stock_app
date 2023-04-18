@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: white;
 }
 .nav {
   display: flex;
@@ -7,10 +8,32 @@
   background-color: black;
   color: white;
   padding: 15px;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .nav a {
   color: white;
   text-decoration: none;
+  margin: 5px;
 }
+/* .dashboard{
+  border: 1px solid black;
+} */
+.stocktable{
+  color: white;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+  margin: 5px;
+}
+td, th, tr{
+  text-align: left;
+  padding: 8px;
+  border: 1px solid white;;
+  background-color: #19836e;
+  border-collapse: collapse;
+ 
+}
+/* .tableDiv{
+
+} */
